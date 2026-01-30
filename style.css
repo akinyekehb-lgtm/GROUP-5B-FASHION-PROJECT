@@ -188,3 +188,10 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+
+.ptext {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    align-self: center;
+}
