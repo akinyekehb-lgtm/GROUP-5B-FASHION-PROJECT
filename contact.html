@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Enroll | Fashion School</title>
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== NAVIGATION BAR ===== -->
+<header class="navbar">
+    <div class="logo">Fashion<span>School</span></div>
+
+    <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact.html" class="active">Contact</a>
+    </nav>
+</header>
+
+<!-- ===== PAGE TITLE ===== -->
+<section class="intro">
+    <h1>Contact & Enrollment</h1>
+    <p>Fill the form below to enroll or ask any questions.</p>
+</section>
+
+<!-- ===== MAIN CONTENT ===== -->
+<section class="container">
+
+    <!-- FORM -->
+    <div class="form-section">
+        <h2>Enrollment Form</h2>
+
+        <form id="enrollForm">
+            <label>Full Name</label>
+            <input type="text" id="name">
+
+            <label>Email</label>
+            <input type="email" id="email">
+
+            <label>Phone Number</label>
+            <input type="tel" id="phone">
+
+            <label>Select Course</label>
+            <select id="course">
+                <option value="">-- Select Course --</option>
+                <option>Fashion Design</option>
+                <option>Tailoring & Garment Construction</option>
+                <option>Pattern Drafting & Cutting</option>
+                <option>Fashion Illustration</option>
+            </select>
+
+            <label>Message (Optional)</label>
+            <textarea id="message"></textarea>
+
+            <button type="submit">Submit Registration</button>
+        </form>
+
+        <p id="successMessage"></p>
+    </div>
+
+    <!-- CONTACT INFO -->
+    <div class="info-section">
+        <h2>Contact Info</h2>
+        <p><strong>Phone:</strong> +234 000 000 0000</p>
+        <p><strong>Email:</strong> fashionschool@email.com</p>
+        <p><strong>Location:</strong> Nigeria</p>
+
+        <div class="socials">
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">WhatsApp</a>
+        </div>
+    </div>
+
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+    <p>© 2026 Fashion School. All Rights Reserved.</p>
+</footer>
+
+<!-- JS LINK -->
+<script src="js/contact.js"></script>
+
+</body>
+</html>
